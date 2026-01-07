@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "twoSum",
+      "request": "launch",
+      "mainClass": "twoSum",
+      "projectName": "Technical-training_9e3376fb"
+    },
+    {
+      "type": "java",
       "name": "maxOccurrence",
       "request": "launch",
       "mainClass": "maxOccurrence",
