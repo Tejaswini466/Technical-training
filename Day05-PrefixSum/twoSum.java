@@ -10,6 +10,7 @@ public class twoSum {
     for (int i = 0; i < n; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
     Map<Integer, Integer> map = new HashMap<>();
 
     for (int i = 0; i < n; i++) {
@@ -21,6 +22,5 @@ public class twoSum {
       map.put(arr[i], i);
     }
     System.out.println("-1 -1");
-    sc.close();
   }
 }
